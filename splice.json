@@ -1,0 +1,100 @@
+{
+  "base_id": "W-0117",
+  "base_sha256": "f23ee94691d3c500ddd08d46aa800f07437bd5269334be6bb6a3e39d05d70ba3",
+  "base_length": 93904752507,
+  "new_length": 93904752506,
+  "old_cut_cost": 36,
+  "new_cut_cost": 35,
+  "cuts": [
+    {
+      "token_offset": 35465024,
+      "from_pos": 8018599985,
+      "source": "DCB015342A9876",
+      "target": "0173426985ABCD",
+      "weight": 14,
+      "interior": [
+        "CB015342A98760",
+        "B015342A987601",
+        "015342A9876017",
+        "15342A98760173",
+        "5342A987601734",
+        "342A9876017342",
+        "42A98760173426",
+        "2A987601734269",
+        "A9876017342698",
+        "98760173426985",
+        "8760173426985A",
+        "760173426985AB",
+        "60173426985ABC"
+      ]
+    },
+    {
+      "token_offset": 162125742,
+      "from_pos": 36587897101,
+      "source": "D1C02B459A3768",
+      "target": "768234519ABCD0",
+      "weight": 11,
+      "interior": [
+        "1C02B459A37682",
+        "C02B459A376823",
+        "02B459A3768234",
+        "2B459A37682345",
+        "B459A376823451",
+        "459A3768234519",
+        "59A3768234519A",
+        "9A3768234519AB",
+        "A3768234519ABC",
+        "3768234519ABCD"
+      ]
+    },
+    {
+      "token_offset": 222692179,
+      "from_pos": 50281547842,
+      "source": "0DC1B896425A37",
+      "target": "A37689B5214CD0",
+      "weight": 11,
+      "interior": [
+        "DC1B896425A376",
+        "C1B896425A3768",
+        "1B896425A37689",
+        "B896425A37689B",
+        "896425A37689B5",
+        "96425A37689B52",
+        "6425A37689B521",
+        "425A37689B5214",
+        "25A37689B5214C",
+        "5A37689B5214CD"
+      ]
+    }
+  ],
+  "blocks_order": "ACBD",
+  "changed_transitions": [
+    {
+      "original_source_cut": 0,
+      "original_target_cut": 1,
+      "source": "DCB015342A9876",
+      "target": "768234519ABCD0",
+      "cost": 12,
+      "default_steps": 1455,
+      "code": 52393125
+    },
+    {
+      "original_source_cut": 2,
+      "original_target_cut": 0,
+      "source": "0DC1B896425A37",
+      "target": "0173426985ABCD",
+      "cost": 14,
+      "default_steps": 48047,
+      "code": 92492444580
+    },
+    {
+      "original_source_cut": 1,
+      "original_target_cut": 2,
+      "source": "D1C02B459A3768",
+      "target": "A37689B5214CD0",
+      "cost": 9,
+      "default_steps": 181,
+      "code": 56511
+    }
+  ]
+}
